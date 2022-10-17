@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="styles.css" rel="stylesheet" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Typing game!</h1>
+      <div>
+        <p>Practice your typing skills with a quote from Sherlock Holmes.</p>
+        <p>Rules</p>
+        <!-- <p class="rules">
+          Clicks on start button and you will be presented with a quote to type.
+          Type the quote as quickly as you can in the textbox. As each word is
+          completed, the next one is highlighted If you have a typo, the textbox
+          is updated to red When you complete the quote, a success message is
+          displayed with the elapsed time
+        </p> -->
+        <p>Click on Start button to start!</p>
+        <p id="quote"></p>
+        <p id="message"></p>
+      </div>
+      <div class="text-area">
+        <input type="text" aria-label="current word" id="typed-value" />
+        <!-- The textbox for typing -->
+        <button type="button" id="start">Start</button>
+        <!-- To start the game -->
+      </div>
+      <script src="script.js"></script>
+    </div>
+  </body>
+</html>
